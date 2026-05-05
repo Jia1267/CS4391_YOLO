@@ -1,0 +1,1 @@
+everything epochs=50 imgsz=640 batch=2 workers=0

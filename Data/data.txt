@@ -1,0 +1,136 @@
+(cs4391) PS F:\F\School\3\CS4391\Project> python .\merge_yolo_datasets.py
+========== Source Dataset Counts ==========
+
+========== soccer_ball | class_id=0 | root=F:\F\School\3\CS4391\Project\Data\Soccer_Ball ==========
+train | images:   619 | labels:   619
+valid | images:   179 | labels:   179
+test  | images:    89 | labels:    89
+total | images:   887 | labels:   887
+
+========== keyboard | class_id=1 | root=F:\F\School\3\CS4391\Project\Data\keyboard ==========
+train | images:   528 | labels:   528
+valid | images:    46 | labels:    46
+test  | images:    12 | labels:    12
+total | images:   586 | labels:   586
+
+========== cellphone | class_id=2 | root=F:\F\School\3\CS4391\Project\Data\CellPhone ==========
+train | images:   479 | labels:   479
+valid | images:    67 | labels:    67
+test  | images:    47 | labels:    47
+total | images:   593 | labels:   593
+
+========== laptop | class_id=3 | root=F:\F\School\3\CS4391\Project\Data\laptop ==========
+train | images:  1050 | labels:  1050
+valid | images:   100 | labels:   100
+test  | images:    50 | labels:    50
+total | images:  1200 | labels:  1200
+
+========== mouse | class_id=4 | root=F:\F\School\3\CS4391\Project\Data\Mouse ==========
+train | images:    46 | labels:    46
+valid | images:     9 | labels:     9
+test  | images:     5 | labels:     5
+total | images:    60 | labels:    60
+
+========== mouse | class_id=4 | root=F:\F\School\3\CS4391\Project\Data\Mouse1 ==========
+train | images:   117 | labels:   117
+valid | images:     5 | labels:     5
+test  | images:     5 | labels:     5
+total | images:   127 | labels:   127
+
+========== mouse | class_id=4 | root=F:\F\School\3\CS4391\Project\Data\mouse2 ==========
+train | images:    17 | labels:    17
+valid | images:     6 | labels:     6
+test  | images:     2 | labels:     2
+total | images:    25 | labels:    25
+
+========== mouse | class_id=4 | root=F:\F\School\3\CS4391\Project\Data\mouse3 ==========
+train | images:   177 | labels:   177
+valid | images:    50 | labels:    50
+test  | images:    28 | labels:    28
+total | images:   255 | labels:   255
+
+========== pen | class_id=5 | root=F:\F\School\3\CS4391\Project\Data\pen ==========
+train | images:    76 | labels:    76
+valid | images:    21 | labels:    21
+test  | images:    11 | labels:    11
+total | images:   108 | labels:   108
+
+========== pen | class_id=5 | root=F:\F\School\3\CS4391\Project\Data\Pen2 ==========
+train | images:   285 | labels:   285
+valid | images:    28 | labels:    28
+test  | images:    14 | labels:    14
+total | images:   327 | labels:   327
+
+========== pen | class_id=5 | root=F:\F\School\3\CS4391\Project\Data\pen3 ==========
+train | images:   156 | labels:   156
+valid | images:    12 | labels:    12
+test  | images:     6 | labels:     6
+total | images:   174 | labels:   174
+
+========== Copying Datasets ==========
+
+Copying F:\F\School\3\CS4391\Project\Data\Soccer_Ball as class 0 (soccer_ball)
+train | copied images:   619 | copied labels:   619 | missing labels:     0
+valid | copied images:   179 | copied labels:   179 | missing labels:     0
+test  | copied images:    89 | copied labels:    89 | missing labels:     0
+
+Copying F:\F\School\3\CS4391\Project\Data\keyboard as class 1 (keyboard)
+train | copied images:   528 | copied labels:   528 | missing labels:     0
+valid | copied images:    46 | copied labels:    46 | missing labels:     0
+test  | copied images:    12 | copied labels:    12 | missing labels:     0
+
+Copying F:\F\School\3\CS4391\Project\Data\CellPhone as class 2 (cellphone)
+train | copied images:   479 | copied labels:   479 | missing labels:     0
+valid | copied images:    67 | copied labels:    67 | missing labels:     0
+test  | copied images:    47 | copied labels:    47 | missing labels:     0
+
+Copying F:\F\School\3\CS4391\Project\Data\laptop as class 3 (laptop)
+train | copied images:  1050 | copied labels:  1050 | missing labels:     0
+valid | copied images:   100 | copied labels:   100 | missing labels:     0
+test  | copied images:    50 | copied labels:    50 | missing labels:     0
+
+Copying F:\F\School\3\CS4391\Project\Data\Mouse as class 4 (mouse)
+train | copied images:    46 | copied labels:    46 | missing labels:     0
+valid | copied images:     9 | copied labels:     9 | missing labels:     0
+test  | copied images:     5 | copied labels:     5 | missing labels:     0
+
+Copying F:\F\School\3\CS4391\Project\Data\Mouse1 as class 4 (mouse)
+train | copied images:   117 | copied labels:   117 | missing labels:     0
+valid | copied images:     5 | copied labels:     5 | missing labels:     0
+test  | copied images:     5 | copied labels:     5 | missing labels:     0
+
+Copying F:\F\School\3\CS4391\Project\Data\mouse2 as class 4 (mouse)
+train | copied images:    17 | copied labels:    17 | missing labels:     0
+valid | copied images:     6 | copied labels:     6 | missing labels:     0
+test  | copied images:     2 | copied labels:     2 | missing labels:     0
+
+Copying F:\F\School\3\CS4391\Project\Data\mouse3 as class 4 (mouse)
+train | copied images:   177 | copied labels:   177 | missing labels:     0
+valid | copied images:    50 | copied labels:    50 | missing labels:     0
+test  | copied images:    28 | copied labels:    28 | missing labels:     0
+
+Copying F:\F\School\3\CS4391\Project\Data\pen as class 5 (pen)
+train | copied images:    76 | copied labels:    76 | missing labels:     0
+valid | copied images:    21 | copied labels:    21 | missing labels:     0
+test  | copied images:    11 | copied labels:    11 | missing labels:     0
+
+Copying F:\F\School\3\CS4391\Project\Data\Pen2 as class 5 (pen)
+train | copied images:   285 | copied labels:   285 | missing labels:     0
+valid | copied images:    28 | copied labels:    28 | missing labels:     0
+test  | copied images:    14 | copied labels:    14 | missing labels:     0
+
+Copying F:\F\School\3\CS4391\Project\Data\pen3 as class 5 (pen)
+train | copied images:   156 | copied labels:   156 | missing labels:     0
+valid | copied images:    12 | copied labels:    12 | missing labels:     0
+test  | copied images:     6 | copied labels:     6 | missing labels:     0
+
+========== Combined Dataset Counts ==========
+train | images:  3550 | labels:  3550
+valid | images:   523 | labels:   523
+test  | images:   269 | labels:   269
+total | images:  4342 | labels:  4342
+
+Done.
+Combined dataset: F:\F\School\3\CS4391\Project\Data\combined_data
+data.yaml: F:\F\School\3\CS4391\Project\Data\combined_data\data.yaml
+(cs4391) PS F:\F\School\3\CS4391\Project>

@@ -1,0 +1,1 @@
+everything pochs=50 imgsz=416 batch=4 workers=0
