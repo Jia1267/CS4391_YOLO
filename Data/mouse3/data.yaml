@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['logicool', 'steel-series']
+
+roboflow:
+  workspace: test-khffh
+  project: mouse-rjlsb
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/test-khffh/mouse-rjlsb/dataset/3

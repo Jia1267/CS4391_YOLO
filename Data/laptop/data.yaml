@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['laptop']
+
+roboflow:
+  workspace: laptop-sg9i8
+  project: laptop-model-ddiju
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/laptop-sg9i8/laptop-model-ddiju/dataset/2

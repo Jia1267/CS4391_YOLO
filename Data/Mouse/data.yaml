@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['mouse']
+
+roboflow:
+  workspace: test-8k6n2
+  project: mouse-detect-pktuj
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/test-8k6n2/mouse-detect-pktuj/dataset/6

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Mouse']
+
+roboflow:
+  workspace: zaki-akmal-mustaqim-vkk6g
+  project: mouse-72tsk
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/zaki-akmal-mustaqim-vkk6g/mouse-72tsk/dataset/1

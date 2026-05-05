@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['lost_item24 - v1 2024-05-28 7-02pm']
+
+roboflow:
+  workspace: sagara-hk1oc
+  project: cellphone-py5n2
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sagara-hk1oc/cellphone-py5n2/dataset/1

@@ -1,0 +1,12 @@
+path: F:\F\School\3\CS4391\Project\Data\combined_data
+train: train/images
+val: valid/images
+test: test/images
+
+names:
+  0: soccer_ball
+  1: keyboard
+  2: cellphone
+  3: laptop
+  4: mouse
+  5: pen
